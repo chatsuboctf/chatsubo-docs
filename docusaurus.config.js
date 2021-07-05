@@ -12,7 +12,7 @@ module.exports = {
   title: 'Chatsubo',
   tagline: '',
   url: 'https://chatsuboctf.github.io',
-  baseUrl: '/',
+  baseUrl: '/chatsubo-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
