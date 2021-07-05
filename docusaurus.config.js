@@ -3,16 +3,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  themeConfig: {    
-    colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: true,
-    }
-  },
   title: 'Chatsubo',
   tagline: '',
-  url: 'https://chatsuboctf.github.io',
-  baseUrl: '/chatsubo-docs/',
+  url: 'https://docs.chatsubo.me',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -20,6 +14,10 @@ module.exports = {
   projectName: 'chatsubo-docs', // Usually your repo name.
   trailingSlash: false,
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+    },
     navbar: {
       title: '',
       logo: {
