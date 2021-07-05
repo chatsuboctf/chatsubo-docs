@@ -11,13 +11,14 @@ module.exports = {
   },
   title: 'Chatsubo',
   tagline: '',
-  url: 'https://docs.chatsubo.me',
+  url: 'https://chatsuboctf.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: '', // Usually your GitHub org/user name.
-  projectName: 'Chatsubo', // Usually your repo name.
+  organizationName: 'chatsuboctf', // Usually your GitHub org/user name.
+  projectName: 'chatsubo-docs', // Usually your repo name.
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: '',
